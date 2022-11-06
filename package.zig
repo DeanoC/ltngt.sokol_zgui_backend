@@ -2,7 +2,7 @@ const std = @import("std");
 const sg = @import("sokol").gfx;
 const sapp = @import("sokol").app;
 const zgui = @import("zig_gamedev_zgui");
-const shaders = @import("zgui_sokol_embedded_shader.zig");
+const shaders = @import("sokol_zgui_embedded_shaders.zig");
 
 const DrawVert = zgui.DrawVert;
 const DrawIdx = zgui.DrawIdx;
